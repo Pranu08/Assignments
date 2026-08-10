@@ -1,8 +1,12 @@
-#QT4.
-area = float(input("Enter area of one wall:"))
-inside = float(input("Enter interior cost:"))
-outside = float(input("Enter exterior cost:"))
+# Qt4. WAP to calculate area of traingle and rectangle.
+# Triangle
+b = float(input("Base:"))
+h = float(input("Height:"))
 
-total = area * (inside + outside ) * 7
+print("Triangle Area =", 0.5 * b * h)
 
-print("Total cost =", total)
+# Rectangle 
+#l = float(input("Length: "))
+#w = float(input("Width: "))
+
+#print("Rectangle Area =", l * w)

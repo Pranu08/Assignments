@@ -1,8 +1,9 @@
-# QT.3
-km = float(input("Enter distance in km:"))
+#QT3. Convert distant given in feet and inches into meter and centimeter.
 
-meter = km * 1000 
-cm = km * 100000
+feet = float(input("Enter feet:"))
+inches = float(input("Enter inches:"))
 
-print("Meter =", meter)
+cm = (feet * 30.45) + (inches * 2.54)
+
+print("Meter =", cm / 100)
 print("Centimeter=", cm)

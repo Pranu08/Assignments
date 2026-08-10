@@ -1,8 +1,7 @@
-#QT2.
-p = float(input("Enter Principal:"))
-r = float(input("Enter Rate:"))
-t = float(input("Enter Time:"))
+# QT2.Convert temp from celsius to fahernheit.(c/5=(F-32)/9)
 
-si = p * r * t / 100
+c = float(input("Enter temperature in celsius:"))
 
-print("Simple Intrest=", si)
+f = (c * 9 / 5) + 32
+
+print("Temperature in fahernheit=", f)
